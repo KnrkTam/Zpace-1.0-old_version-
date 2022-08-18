@@ -1,0 +1,30 @@
+.dayTimeSlotBox{
+    display: flex;
+    width: 100%;
+  }
+  
+  .dayTimeSlot{
+    width: 100%;
+    height: auto;
+    border: solid #565656 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .dayTimeSlotHeader{
+    width: 50%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+
+
+  .dayTimeSlotHeaderBox{
+    display: flex;
+  }

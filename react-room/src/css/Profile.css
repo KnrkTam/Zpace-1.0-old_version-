@@ -1,0 +1,18 @@
+.editing{
+    cursor: pointer;
+}
+
+.smallTitle{
+    color: #8B8B8B;
+    font-size: smaller;
+}
+
+.card_piece {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.comment-grid{
+    display: flex;
+}
+

@@ -1,0 +1,273 @@
+.col {
+  /* margin-bottom: 50px; */
+}
+.row {
+  margin-bottom: 30px;
+}
+
+.container {
+  margin-bottom: 90px;
+}
+.errmsg {
+    color: #bf1650;
+  }
+  
+  .errmsg::before {
+    display: inline;
+    content: "⚠ ";
+  }
+
+.submit-btn{
+    color: yellow;
+}
+
+#icon-button-file{
+  display:none
+}
+
+.uploadBtn {
+  display: none
+}
+
+.textContainer {
+  /* margin: 0px 100px 0px 100px; */
+  max-width: 720px;
+}
+
+.pwContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: initial;
+  /* justify-content: flex-start; */
+  /* margin: 0px 100px 0px 100px; */
+  max-width: 720px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.pwLabel {
+  top: 0;
+  left: 0;
+  color: rgba(0, 0, 0, 0.54);
+    padding: 0;
+    font-size: 0.75rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.00938em;
+    margin-bottom: 5px;
+}
+
+.formButtonContainer {
+  margin-top: 10px;
+
+
+}
+.favour_rooms{
+  height: 534px;
+  overflow: scroll;
+}
+.formContainer {
+  /* display: flex; */
+  justify-content: center;
+  padding: 5px
+}
+.paperContainer{
+  padding: 5%;
+
+}
+
+.proPicContainer {
+  margin:20px;
+  width: 15rem;
+  height: 15rem; 
+  /* overflow:hidden; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+
+}
+
+.proPicPaper {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.proPicCol {
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+}
+
+.proPicContainer img {
+  width: 90%;
+  height: 90%;
+  margin: 4% ;
+  border-radius: 3%;
+  object-fit: cover;
+
+}
+
+.infoContainer {
+  text-align: initial;
+}
+
+.editpwContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.reviewContainer {
+  margin: 20px 20px 20px 25px;
+  /* margin-left: 25px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: initial;
+}
+
+.card_piece {
+  margin: 2%;
+  padding: 3%;
+	display: flex;
+  justify-content: space-between;
+  box-sizing: content-box;
+
+}
+
+.sub_box{
+  text-align: left;
+}
+
+.card_piece :hover {
+  text-decoration: none !important;
+}
+
+.card_title_name{
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.proPicLine {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.img_box {
+    width: 120px;
+	margin: 0 10px 0 0;
+	
+}
+.img_room {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+.nothing_record{
+	font-size: 22px;
+    color: #a39e9e;
+}
+
+.price_number {
+  font-weight: 800;
+  font-size: 30px;
+  color: #ff385d;
+}
+
+.price_number_unit {
+  color:gray;
+}
+
+.district_text{
+  color:#3f51b5;
+  font-size: 70%;
+}
+
+.rate_text {
+  color:#3f51b5;
+  font-size: 90%;
+  padding: 2px;
+}
+
+.box_href{
+  text-decoration: none !important;
+  border-radius: 3px;
+}
+
+.box_href :hover{
+  background-color: lightgray !important;
+}
+.submit_div{
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+
+}
+.comments_grid_container{
+  padding-top: 15px;
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+
+}
+.comment_submit{
+ /* display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-right: 650px; */
+}
+
+
+@media (max-width: 1100px){
+  /* .comment_submit{
+    margin-right: 470px !important;
+   } */
+}
+@media (max-width: 900px){
+  .comment_submit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    /* margin-right: 200px !important; */
+   }
+}
+@media (max-width: 780px){
+  .proPicPaper {
+    margin-top:30px
+  }
+  .proPicContainer{
+    padding: 20px;
+    margin:0px;
+    width: 9rem;
+    height: 9rem; 
+  }
+  .proPicText, .proPicLine{
+    display: none !important;
+  }
+  .reviewContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: initial;
+    margin: 10px
+    
+  }
+  .col {
+    margin-bottom: 10px;
+  }
+
+  
+
+}
+
+@media (max-width: 550px){
+  .comment_submit{
+    margin-right: 0 !important;
+  }
+}

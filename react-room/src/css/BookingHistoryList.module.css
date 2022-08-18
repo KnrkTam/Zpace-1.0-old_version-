@@ -1,0 +1,95 @@
+.each_grid_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user_pic{
+    max-width: 200px;
+}
+
+.user_pic img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.request_basic_info{
+    text-align: left;
+    margin-left: 25px;
+}
+
+.request_info{
+    margin: 5px;
+    font-size: 1.3rem;
+    /* border-bottom: #c2c2c2 solid 1px; */
+}
+.card_piece{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.box_href:hover{
+    text-decoration: none;
+}
+
+.user_info_section{
+    display: flex;
+    border: #c2c2c2 1px solid;
+    padding: 10px;
+    border-radius: 30px;
+}
+.span_info{
+    color: #01597A;
+    font-weight: 600;
+}
+
+.user_info{
+    text-align: left;
+    margin: 25px 10px;
+}
+
+
+
+/* .tablist div{
+    display: flex;
+    justify-content: center;
+} */
+
+
+@media (max-width: 930px){
+    .each_grid_info{
+        flex-direction: column-reverse;
+    }
+    .user_info_section{
+        margin: 13px 0;
+    }
+    .request_basic_info{
+        margin-bottom: 15px;
+	}
+	.request_info {
+		margin: 5px;
+		font-size: 1rem;
+		border-bottom: #c2c2c2 solid 1px;
+    }
+    
+    .MuiTabs-scroller{
+        padding-left: 200px;
+    }
+    .user_info_section{
+        flex-direction: column-reverse;
+    }
+}
+
+@media (min-width: 930px){
+.tablist div{
+    display: flex;
+    justify-content: center;
+}
+
+
+}
+
+

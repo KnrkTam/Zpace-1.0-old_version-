@@ -1,0 +1,46 @@
+.weekdayTimeCheckbox{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.deleteWeeklyTimeSlotButton{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.decideAvailableTimeSlot{
+    display: flex;
+    justify-content: center;
+}
+
+.renderPreviewPic{
+    display: flex;
+    flex-direction: row;
+    max-width: 300px;
+    height: 300px;
+    margin: 20px
+}
+
+.renderWholeWeeklyContainer{
+    max-width: 100%;
+    margin: 0px 30px 0 30px;
+}
+
+.renderWholeOneoffContainer{
+    max-width: 100%;
+    margin: 0px 30px 0 30px;
+}
+
+.timePickerBox {
+
+}
+
+.formLabels{
+
+}
+
+.weekInputRow{
+    
+}

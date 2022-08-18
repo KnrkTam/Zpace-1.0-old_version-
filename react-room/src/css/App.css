@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  /* max-width: 1440px; */
+  margin: 0 auto;
+}
+
+.hr-style {
+  border: 0;
+  height: 1px;
+  background: rgb(221, 221, 221)
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+section {
+  padding: 100px 0;
+}
+

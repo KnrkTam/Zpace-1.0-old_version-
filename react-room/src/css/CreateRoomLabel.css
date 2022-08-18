@@ -1,0 +1,12 @@
+#myFile{
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+  
+#myFileLabel{
+    font-size: 18px;
+    text-align: left;
+    color: #ffffff;
+    cursor: pointer;
+}

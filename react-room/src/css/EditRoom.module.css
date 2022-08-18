@@ -1,0 +1,223 @@
+.informationHeaderContainer{
+    margin-top: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.editHeaderContainer{
+    display:flex;
+    justify-content: flex-start;
+    margin: 20px;
+}
+
+.smallFlexContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.inputInRow{
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    margin-top:15px;
+    margin-bottom: 15px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.threeInputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.editColumns{
+    width: 100%!important;
+}
+
+.editSmallColumns{
+    width: 25%!important;
+}
+
+.currentInfo{
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.currentPhoto{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.confirmPhotoButton{
+    margin-left: 5px !important;
+    margin-right: 2px !important;
+    margin-bottom: 2px !important;
+    text-transform: none !important;
+    font-size: 16px !important;
+    background-color: #585aaa !important;
+    color: #eaeaea !important;
+}
+
+.addExtraPhotoButtonContainer{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+
+.addExtraPhotoButton{
+    font-size: 80px !important;
+    color: #585aaa !important;
+}
+
+.defaultImage{
+    margin-top: 40px !important;
+    font-size: 120px !important;
+}
+
+.defaultNoPhotosContainer{
+    margin: 20px;
+    border: 3px dashed #dad6d6;
+}
+
+.noPhotosAtMoment{
+    font-size: 22px;
+    color: #a39e9e;
+}
+
+.addPhotosSmallDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#addPictures{
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#addExtraPhotoLabel{
+    cursor: pointer;
+}
+
+.submitNewContentContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.oneOffTableHead{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.renderOneTimeBox{
+    margin-top: 10px;
+}
+
+#specialDateEdit{
+    margin: 20px;
+}
+
+#weeklyDateEdit{
+    margin: 20px;
+}
+
+.allTheStepperButtons{
+    margin-bottom: 30px;
+}
+
+.editSettingButtons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.editAddContainer{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.noParticularDaysResolvedContainer{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+.weeklyTimetable{
+    display: flex;
+    justify-content: center;
+}
+
+.oneOffTimetable{
+    display: flex;
+    justify-content: center;
+}
+
+.oneOffTableContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.editTimeSlotButtonsInEdit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editTimeSlotInEdit{
+    color: #585aaa;
+    cursor: pointer;
+    font-size: 20px !important;
+}
+
+.renderPreviewPicContainer{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.editDeleteButton{
+    font-size: 30px !important;
+}
+
+.getOriPicsContainer{
+    display: flex;
+    justify-content: center;
+}
+ 
+.showLay{
+    opacity: 0.7;
+}
+
+.deletePicCardContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.deletePicCard{
+    width: 200px;
+    padding: 10px;
+    display: flex;
+}
+
+.picNoSpan{
+    margin-top: 5px;
+    text-align: left;
+    display: flex;
+    flex: 1;
+}
+
+.cancelDeletePic{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.deleteWeeklyTimeSlotButton{
+    position: relative;
+}

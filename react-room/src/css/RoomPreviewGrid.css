@@ -1,0 +1,85 @@
+
+.preview-pic i{
+    position: absolute;
+    font-size: 35px;
+    color: rgb(245, 245, 245);
+    cursor: pointer;
+    ;
+
+}
+
+.preview-pic i :hover{
+    background-color: ivory solid;
+}
+
+
+/* .fa-chevron-circle-left{
+    top: 85px;
+    left: 0;
+}
+.fa-chevron-circle-right{
+    top: 85px;
+    right: 0;
+} */
+.preview-pic{
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+
+}
+
+.preview-pic img{
+    /* margin: 2px; */
+    padding: 3%;
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.location-point{
+    cursor: pointer;
+}
+
+.previewBtn{
+    /* font-size: 1.5rem !important; */
+    font-weight: 600 !important;
+    padding: 5px 0;
+    /* padding-right: 0; */
+}
+
+.previewInfo{
+    text-align: left;
+    width: 300px;
+    margin: 2px auto;
+}
+
+.name_star_holder{
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.star_holder{
+    width: 150px;
+}
+
+.stars-preview{
+    font-size: 1.2rem !important;
+    color: #fecd1a;
+}
+
+.room-grid{
+    padding: 15px 0;
+}
+
+.in_map_name{
+    font-size: 1.5rem !important;
+}
+
+.hourly-price-number {
+    font-weight: 800 !important; 
+    font-size: larger;
+    color: #FF385D !important;
+}

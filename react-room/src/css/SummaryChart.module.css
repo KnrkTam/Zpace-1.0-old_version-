@@ -1,0 +1,63 @@
+
+.chart_holder{
+    display: flex;
+}
+
+.pieChartEach{
+    margin: 20px 0;
+}
+
+.pieGroup{
+    margin-top: 60px;
+    display: flex;
+}
+
+.enterYearChart{
+    display: flex;
+    /* justify-content: flex-start; */
+}
+
+.chart_summary{
+    display: flex;
+}
+
+.bardata{
+    width: 650px;
+    height: 300px;
+}
+
+.pieChart{
+    display: flex;
+}
+
+.pieChartEach{
+    margin-bottom: 30px;
+    width: 600px;
+    height: 300px;
+}
+
+@media (max-width: 700px){
+    .bardata{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        max-width: 500px;
+    }
+
+    .chart_summary{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pieChart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pieChartEach{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}

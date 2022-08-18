@@ -1,0 +1,23 @@
+.agreeBox{
+    color: black;
+    margin-right: 10px;
+    font-size: 30px !important;
+}
+
+
+.roomButtons{
+    margin: 5px;
+    background-color: #585AAA;
+    box-shadow: 0px 5px 10px#8e96b8;
+    border: 1px solid #585AAA;
+    margin-left: 5px !important;
+}
+
+.becomeHostButtonsContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.becomeHostCheckBoxContainer{
+  
+}

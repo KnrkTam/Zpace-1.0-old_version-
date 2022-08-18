@@ -1,0 +1,150 @@
+.edit-room-icon-container{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.edit-room-icon{
+    cursor: pointer;
+    font-size: 25px;
+    color: #585AAA;
+    margin-top: 5px;
+}
+
+.card-piece{
+    width: 800px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.card-flex-container{
+    display: flex;
+}
+
+.card-image{
+    max-width: 100%;
+}
+
+.space-name{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.delete-room-icon-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.delete-room-icon{
+    font-size: 35px !important;
+    color: grey !important;
+    cursor: pointer;
+}
+
+#transition-modal-description{
+    font-size: 18px;
+}
+
+.big-container{
+    display: flex;
+}
+
+.medium-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.every-picture-container{
+    margin:10px;
+}
+
+.default-image{
+    font-size: 50px;
+}
+
+.gridList-container{
+    display: flex;
+    align-items: center;
+}
+
+.chips{
+    margin: 2px;
+}
+
+.outlined-select-currency-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tslot{
+    background-color: #585aaa;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 999px;
+    border: 1px solid #585aaa;
+    margin-left: 5px; 
+    margin-right: 5px;
+}
+
+.sslot{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.oneslot{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.oneoff-time-string{
+    background-color: #585aaa;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 999px;
+    border: 1px solid #585aaa;
+    margin-left: 5px; 
+    margin-right: 5px;
+}
+
+.confirm-delete-room-buttons-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.confirm-delete-room-buttons{
+    margin-left: 5px !important;
+}
+
+.search-result-report{
+    font-size: 22px;
+}
+
+.room-card-rating-summary{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.room-card-rating-summary-span{
+    margin-left: 5px;
+}
+
+.room-card-rating-stars-container{
+    display: flex;
+
+}
+
+@media (max-width: 800px){
+    .oneoff-time-string{
+        color: black;
+        flex-wrap: wrap;
+        background-color: #ffffff;
+        border: none;
+    }
+}

@@ -1,0 +1,12 @@
+.chat_log_paper{
+        z-index: 101 !important;
+        height: auto;
+        margin-right: 100px;
+
+}
+
+@media (max-width: 800px){
+        .chat_log_paper{
+                margin-right: 50px;
+        }
+}

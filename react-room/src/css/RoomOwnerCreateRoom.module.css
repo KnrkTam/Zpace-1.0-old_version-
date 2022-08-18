@@ -1,0 +1,172 @@
+.spaceDetail{
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.formLabels{
+    font-size: 18px !important;
+}
+
+.formHeaders{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.formTitle{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+}
+
+.inputInRow{
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.editColumns{
+    width: 100%!important;
+}
+
+.checkBoxContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    flex-wrap: wrap;
+}
+
+.roomButtonsContainer{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.roomButtons{
+    margin: 5px;
+    background-color: #585AAA;
+    box-shadow: 0px 5px 10px#8e96b8;
+    border: 1px solid #585AAA;
+}
+
+.threeInputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pickDate{
+    width: 200px !important;
+}
+
+#selectDistrictId{
+    z-index: 100;
+    text-align: left;
+}
+
+.timePickerBox{
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid #585AAA;
+}
+
+.regularTimeButton{
+    color: #585AAA !important;
+}
+
+.timeSlotSpan{
+    text-align: left;
+    font-size: 20px;
+}
+
+.timeContainer{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.buttonCon{
+    margin-left: 50px;
+    display: flex;
+}
+
+#oneOffLabel{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#addWeeklyButton{
+    background-color: #585AAA;
+    border: 1px solid  #7c5db6;
+    box-shadow: 0px 5px 20px#8e96b8;
+}
+
+#specialDate{
+    background-color: #585AAA;
+    border: 1px solid  #7c5db6;
+    box-shadow: 0px 5px 20px#8e96b8;
+}
+
+#selectWeekendId{
+    width: 200px;
+}
+
+.weekInputRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.timeInputContent{
+    margin: 20px;
+}
+
+.renderPreviewPicContainer{
+    margin-left: -20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.errorBox{
+    display: block
+}
+
+.error{
+    display: flex;
+    justify-content: center;
+}
+
+.capacity{
+    width: 100%;
+}
+
+.mbButtons{
+    margin: 5px !important;
+}
+
+.photoIconUploadButton{
+    font-size: 100px !important;
+}
+
+.facilityLabel{
+    margin-top: 5px;
+}
+
+.RenderPreviewPicContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 800px) {
+    .RenderPreviewPicContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

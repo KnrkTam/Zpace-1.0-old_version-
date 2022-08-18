@@ -1,0 +1,54 @@
+.login-container{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-inputs{
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    border: 1px 
+}
+
+.show-hide-password{
+    display: flex;
+    justify-content:  flex-start;
+}
+
+.password-icons{
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.submit-button{
+    color: #FFFFFF;
+    background-color: #5455a9;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.submit-button:hover{
+    color: #FFFFFF;
+    box-shadow: 0px 5px 20px#8e96b8;
+    margin-top: 1rem;
+}
+
+.fb-login{
+    margin-bottom: 10px;
+}
+
+.g-login-button{
+    width: 100%;
+    display: block;
+    margin-top: 1rem;
+}
+
+.userCardTitle {
+    margin-top: .5rem;
+    font-weight: 600;
+    width: 100%;
+    margin: auto;
+    color:#5455a9
+}

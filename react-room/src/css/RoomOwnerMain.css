@@ -1,0 +1,99 @@
+.host-buttons-container{
+    display: flex;
+    justify-content: center;
+}
+
+.host-stat-content{
+    margin: 30px;
+    display:flex;
+    justify-content: flex-start;
+}
+
+.images-container{
+    display: flex;
+    justify-content: center;
+    margin: 30px 10px 30px 0;
+}
+
+.default-image{
+    font-size: 100px;
+    color: rgb(209, 208, 208)
+}
+
+.all-rooms-title{
+    margin: 20px;
+}
+
+.headers-container{
+    display: flex;
+}
+
+.add-room-button-container{
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    bottom: 30px;
+}
+
+.add-room-button{
+    color:#eaeaea !important;
+    font-size: 22px !important;
+    background-color: #585AAA !important;
+    border: 1px solid  #7c5db6 !important;
+    box-shadow: 0px 5px 20px#8e96b8 !important;
+}
+
+.num-of-space-container{
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+}
+
+.num-of-space{
+    font-size: 18px;
+}
+
+.room-card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.card-details-container{
+    padding: 20px;
+}
+
+.card-details{
+    font-size: 22px;
+}
+
+.room-paper{
+    max-width: 600px;
+    height: auto;
+}
+
+.space-name {
+    padding-top: 10px;
+    font-size: 24px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.thumbnail-image{
+    max-width: 80%;
+    height: auto;
+}
+
+.link-to-edit{
+    color: black;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.view-details-and-edit{
+    margin-right: 5px;
+}

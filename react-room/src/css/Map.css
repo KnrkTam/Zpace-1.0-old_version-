@@ -1,0 +1,55 @@
+.marker-div{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+
+
+.img-box {
+    position: relative;
+    width: 200px;
+    margin: 5px;
+    
+}
+.img-box i{
+    position: absolute;
+    font-size: 30px;
+    color: rgb(245, 245, 245);
+}
+.img-box img {
+    width: 100%;
+    height: 150px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.i-left{
+    top: 70px !important;
+}
+.i-right{
+    top: 70px !important;
+}
+.search-page{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.left-bar{
+    width: 30%;
+}
+
+.search{
+    position: absolute;
+    width: 180px;
+    z-index: 60;
+    top: 30px;
+    left: 5px;
+}
+.locate{
+    bottom: 0;
+    position: absolute;
+    z-index: 60;
+}
+
+.preview_room_marker{
+    max-width: 210px;
+}

@@ -1,0 +1,38 @@
+.reg-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.uploadBtn {
+    display: none
+}
+
+.my-facebook-button-class i{
+    margin: 0;
+    padding-right: 20px;
+    font-size: 150%;
+
+}
+
+.my-facebook-button-class{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: auto;
+    background-color: #4c69ba;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 2px 0px, rgba(0, 0, 0, 0.24) 0px 0px 1px 0px;
+    padding: 5%;
+    font-size: small;
+
+}
+
+
+
+

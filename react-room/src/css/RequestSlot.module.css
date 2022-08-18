@@ -1,0 +1,48 @@
+.img_div{
+    width: 50px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.img_div img{
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.room_div_img{
+    width: 160px;
+    overflow: hidden;
+    padding: 5px 0;
+}
+
+
+.room_div_img img{
+    width: 100%;
+    object-fit: contain;
+    height: 70px;
+}
+.big_flex_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex_div{
+    display: flex;
+    align-items: center;
+}
+
+.link:hover{
+    text-decoration: none;
+}
+
+.username{
+    font-size: 1.1rem;
+    color: #01597A;
+    margin-left: 5px;
+}
+.icons_waving{
+    color: #FF3A5D;
+}
+
+

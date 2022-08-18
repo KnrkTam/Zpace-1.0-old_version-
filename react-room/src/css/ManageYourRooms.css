@@ -1,0 +1,56 @@
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+
+}
+
+.management-container{
+    padding: 20px;
+}
+
+.list {
+    font-size: 16px;
+}
+
+.management-system-button{
+    font-family: 'Poppins', sans-serif !important;
+    text-transform: none !important;
+    font-size: 18px !important;
+    color: #0f3057 !important; 
+}
+
+.manage-your-room-paper{
+    z-index: 101;
+    height: auto;
+    margin-right: 100px;
+
+}
+
+.menu-bar-item {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: #0f3057;;
+    width: 100%;
+    padding: 12px 12px;
+}
+
+.menu-bar-item:hover{
+    color: #0f3057;
+    text-decoration: none;
+}
+
+.menu-bar-item-icon{ 
+    margin-right: 0.5rem;
+    color: #5455a9;
+}
+
+@media (max-width: 600px){
+    .manage-your-room-paper{
+        z-index: 101;
+        height: auto;
+        margin-right: 200px;
+    
+    }
+ }
