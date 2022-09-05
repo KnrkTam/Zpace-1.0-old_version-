@@ -44,7 +44,6 @@ The targeted users of ZPACE would be the flex community including freelance work
 
 ## Client to Server flow
 ![Thumbnail](https://github.com/KnrkTam/Zpace-1.0-old_version-/blob/main/public/client_to_server_flow.png)
-)
 
 1. To manage the transformation of domain name and IP, Route 53 service is used.
 2. CloudFront can accelerate the speed of websites to clients over the Internet while also reducing the load in different locations.
@@ -57,8 +56,6 @@ The targeted users of ZPACE would be the flex community including freelance work
 [//]: contributor-faces
 
 <a href="https://github.com/KnrkTam"><img src="https://avatars.githubusercontent.com/u/99338991?s=96&v=4" title="Kenrick Tam" width="80" height="80"></a>
-[//]: contributor-faces
-[//]: contributor-faces
 
 <a href="https://github.com/jimmywu987"><img src="https://avatars.githubusercontent.com/u/65562227?v=4" title="Jimmy Wu" width="80" height="80"></a>
 
