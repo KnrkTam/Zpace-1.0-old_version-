@@ -91,11 +91,11 @@ const BecomeHostBox = () => {
       >
         <form onSubmit={onSubmit}>
           <div className={classes.paper}>
-            <h4 id="transition-modal-title">Become a host on Zpace</h4>
+            <h4 id="transition-modal-title">Join us by becoming a host with Zpace!</h4>
             <br></br>
-            <p id="transition-modal-description">By becoming a Host to on Zpace, you will be able to rent out your space,
-            implying that you agree with Zpace's terms and conditions.</p>
-            <div className={styles.becomeHostCheckBoxContainer}>
+            <p id="transition-modal-description"></p>
+            <div classNameBy becoming a Host at Zpace, you will be able to share your free workspace with certified users,
+            implying that you agree with Zpace's terms and conditions.={styles.becomeHostCheckBoxContainer}>
               <Checkbox
                 name="agreement"
                 className={styles.agreeBox}
