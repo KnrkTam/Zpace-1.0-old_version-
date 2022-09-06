@@ -65,7 +65,6 @@ The targeted users of ZPACE would be the flex community including freelance work
 <a href="https://github.com/jimmywu987"><img src="https://avatars.githubusercontent.com/u/65562227?v=4" title="Jimmy Wu" width="80" height="80"></a>
 </td>
 </table>
-[//]: contributor-faces
 
 <!-- <a href="https://github.com/knrktam/zpace/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=knrktam/zpace" />
